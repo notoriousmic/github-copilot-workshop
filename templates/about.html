@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}About - GitHub Copilot Workshop{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>About This Workshop</h1>
+    <p>Learn more about GitHub Copilot and this demonstration project</p>
+</div>
+
+<section class="about-section">
+    <h2>Purpose</h2>
+    <p>This website demonstrates various GitHub Copilot capabilities through an interactive web application. 
+    It showcases how Copilot can assist developers in writing code more efficiently across different scenarios.</p>
+    
+    <h2>Technologies Used</h2>
+    <ul class="tech-list">
+        <li><strong>Python:</strong> Backend programming language</li>
+        <li><strong>Flask:</strong> Lightweight web framework for building the application</li>
+        <li><strong>HTML/CSS:</strong> Frontend structure and styling</li>
+        <li><strong>Jinja2:</strong> Templating engine for dynamic content</li>
+    </ul>
+    
+    <h2>How This Site Was Built</h2>
+    <p>This entire website was created with assistance from GitHub Copilot! The AI helped with:</p>
+    <ul class="build-list">
+        <li>Structuring the Flask application</li>
+        <li>Generating HTML templates with proper structure</li>
+        <li>Creating CSS styles for responsive design</li>
+        <li>Writing descriptive content about Copilot features</li>
+        <li>Implementing routing and view functions</li>
+    </ul>
+    
+    <h2>Getting Started with Copilot</h2>
+    <p>To start using GitHub Copilot in your projects:</p>
+    <ol class="steps-list">
+        <li>Install the GitHub Copilot extension in your code editor (VS Code, JetBrains, etc.)</li>
+        <li>Sign in with your GitHub account that has Copilot access</li>
+        <li>Start typing code or comments, and Copilot will suggest completions</li>
+        <li>Press Tab to accept suggestions or continue typing to ignore them</li>
+        <li>Use Ctrl+Enter (Cmd+Enter on Mac) to see alternative suggestions</li>
+    </ol>
+    
+    <h2>Best Practices</h2>
+    <div class="best-practices">
+        <div class="practice-card">
+            <h3>🎯 Be Specific</h3>
+            <p>Write detailed comments about what you want the code to accomplish.</p>
+        </div>
+        <div class="practice-card">
+            <h3>🧪 Test Everything</h3>
+            <p>Always test and review AI-generated code before using it in production.</p>
+        </div>
+        <div class="practice-card">
+            <h3>🔄 Iterate</h3>
+            <p>Refine your prompts and code structure to get better suggestions.</p>
+        </div>
+        <div class="practice-card">
+            <h3>📚 Learn</h3>
+            <p>Use Copilot as a learning tool to discover new patterns and approaches.</p>
+        </div>
+    </div>
+</section>
+
+<div class="back-link">
+    <a href="/">← Back to Home</a>
+</div>
+{% endblock %}

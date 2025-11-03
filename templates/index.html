@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Home - GitHub Copilot Workshop{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h1>Welcome to GitHub Copilot Workshop</h1>
+    <p class="hero-subtitle">Discover the power of AI-assisted coding with GitHub Copilot</p>
+</div>
+
+<section class="intro-section">
+    <h2>What is GitHub Copilot?</h2>
+    <p>GitHub Copilot is an AI pair programmer that helps you write code faster and with less work. 
+    It draws context from comments and code to suggest individual lines and whole functions instantly.</p>
+</section>
+
+<section class="features-section">
+    <h2>Key Features</h2>
+    <div class="features-grid">
+        {% for feature in features %}
+        <div class="feature-card">
+            <h3>{{ feature.title }}</h3>
+            <p class="feature-description">{{ feature.description }}</p>
+            <div class="feature-example">
+                <strong>Example:</strong> {{ feature.example }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="cta-section">
+    <h2>Ready to See More?</h2>
+    <p>Check out practical code examples and learn how to leverage Copilot in your projects.</p>
+    <a href="/examples" class="cta-button">View Code Examples</a>
+</section>
+{% endblock %}
