@@ -72,27 +72,3 @@ github-copilot-workshop/
     └── css/
         └── style.css     # CSS styles
 ```
-
-## GitHub Copilot Features Showcased
-
-This website demonstrates the following Copilot capabilities:
-
-1. **Code Completion**: Auto-completing code as you type
-2. **Natural Language to Code**: Converting comments into working code
-3. **Test Generation**: Creating unit tests automatically
-4. **Code Refactoring**: Suggesting improvements to code structure
-5. **Documentation**: Generating docstrings and comments
-6. **Multi-Language Support**: Working across various programming languages
-
-## Development
-
-To modify the website:
-
-- Edit `app.py` to change routes or add new pages
-- Modify templates in the `templates/` directory to change page content
-- Update `static/css/style.css` to adjust styling
-- Add new dependencies to `requirements.txt` as needed
-
-## License
-
-This project is part of the GitHub Copilot Workshop and is provided as an educational resource.
