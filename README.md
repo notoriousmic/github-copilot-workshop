@@ -44,6 +44,11 @@ This project contains a basic Python website that showcases GitHub Copilot capab
    python3 app.py
    ```
 
+   For development with debug mode enabled:
+   ```bash
+   FLASK_DEBUG=true python3 app.py
+   ```
+
 3. Open your web browser and visit:
    ```
    http://localhost:5000
