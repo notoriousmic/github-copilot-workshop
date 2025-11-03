@@ -76,7 +76,7 @@ class TestFlaskRoutes(unittest.TestCase):
         response = self.client.get('/')
         data = response.data.decode('utf-8')
 
-        # There should be 6 features mentioned in the code
+        # Verify all expected Copilot features are present on the homepage
         feature_titles = [
             'Code Completion',
             'Natural Language to Code',
