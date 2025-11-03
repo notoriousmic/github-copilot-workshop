@@ -12,7 +12,7 @@ Welcome to an immersive experience with GitHub Copilot! This hands-on workshop w
 ## 🛠️ Workshop Instructions
 ### 🌟 Getting Started with GitHub Copilot
 GitHub Copilot integrates seamlessly into your GitHub workflow, providing intelligent assistance directly where you need it most.
-![GitHub Copilot UI](images\github-copilot-ui.png)
+![GitHub Copilot UI](..\..\images\github-copilot-ui.png)
 ---
 ## 📋 Task 1: Code Detective - Understand Any Codebase in Minutes
 **Scenario:** 🎭 *You've just joined a new development team and need to quickly understand a complex project. Instead of spending hours reading documentation and code, let's use GitHub Copilot to become productive immediately.*
@@ -48,7 +48,7 @@ Watch GitHub Copilot autonomously create a complete feature from concept to pull
 ### 📝 Step-by-Step Instructions
 1. **🤖 Access Copilot Agents**
    - Navigate to the **Agents tab** in the GitHub Copilot interface
-   ![GitHub Copilot Agents](images\github-copilot-agents.png)
+   ![GitHub Copilot Agents](..\..\images\github-copilot-agents.png)
 2. **🎪 Initiate Autonomous Development**
    Provide this powerful prompt:
    ```
@@ -86,7 +86,7 @@ Experience how GitHub Copilot Spaces can automatically enforce organizational st
    - Navigate to the **Spaces tab** in the GitHub Copilot interface
    - Click **"Create New Space"**
    - Name it **"Organization Rules"**
-   ![GitHub Copilot Spaces](images\github-spaces.png)
+   ![GitHub Copilot Spaces](..\..\images\github-spaces.png)
 2. **� Configure Organization Standards**
    - Copy the content from `space-prompt.txt` file
    - Paste it into the **Instructions** field within the space
@@ -114,7 +114,7 @@ Experience how GitHub Copilot Spaces can automatically enforce organizational st
 6. **🔄 Explore the Implementation Process**
    - Enter the **Pull Request** created by Copilot
    - Scroll down and click **"View Session"**
-   ![GitHub Copilot Session](images\copilot-session.png)
+   ![GitHub Copilot Session](..\..\images\copilot-session.png)
 ### 🎉 Expected Outcomes
 After completing this task, you'll experience:
 - 🎯 **Automated Compliance**: AI-powered detection of organizational standard violations
@@ -151,7 +151,7 @@ Ready to take your Copilot skills to the next level?
 ---
 ## 💬 Share Your Experience
 We'd love to hear about your workshop experience! 
-- 🐦 Tweet about it: `#GitHubCopilot #AIprogramming #Workshop`
+- 🐦 Follow me on Linkedin: [Michael Liav LinkedIn](https://www.linkedin.com/in/michael-liav-a5484b220/)
 - 💡 Share insights with your team
 - 🌟 Star this repository if you found it valuable
 ## License
