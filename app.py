@@ -14,6 +14,7 @@ from typing import Dict, List
 import os
 import logging
 from flask import Flask, render_template, abort
+from werkzeug.exceptions import NotFound, InternalServerError
 
 app = Flask(__name__)
 
@@ -194,12 +195,12 @@ def about() -> str:
 
 
 @app.errorhandler(404)
-def not_found_error(error: Exception) -> tuple[str, int]:
+def not_found_error(error: NotFound) -> tuple[str, int]:
     """
     Handle 404 Not Found errors.
 
     Args:
-        error: The exception that triggered this handler.
+        error: The NotFound exception that triggered this handler.
 
     Returns:
         tuple: Error message and HTTP status code 404.
@@ -209,12 +210,12 @@ def not_found_error(error: Exception) -> tuple[str, int]:
 
 
 @app.errorhandler(500)
-def internal_error(error: Exception) -> tuple[str, int]:
+def internal_error(error: InternalServerError) -> tuple[str, int]:
     """
     Handle 500 Internal Server errors.
 
     Args:
-        error: The exception that triggered this handler.
+        error: The InternalServerError exception that triggered this handler.
 
     Returns:
         tuple: Error message and HTTP status code 500.
