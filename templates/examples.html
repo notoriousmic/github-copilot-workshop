@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Examples - GitHub Copilot Workshop{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1>Code Examples</h1>
+    <p>See how GitHub Copilot transforms natural language prompts into working code</p>
+</div>
+
+<section class="examples-section">
+    {% for example in examples %}
+    <div class="example-card">
+        <h3>{{ example.title }}</h3>
+        
+        <div class="code-section">
+            <h4>Prompt (Comment):</h4>
+            <pre><code class="prompt-code">{{ example.prompt }}</code></pre>
+        </div>
+        
+        <div class="code-section">
+            <h4>Generated Code:</h4>
+            <pre><code class="python-code">{{ example.code }}</code></pre>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+
+<section class="tips-section">
+    <h2>Tips for Using Copilot</h2>
+    <ul class="tips-list">
+        <li><strong>Write clear comments:</strong> Describe what you want the code to do in plain English</li>
+        <li><strong>Provide context:</strong> Include relevant variable names and function signatures</li>
+        <li><strong>Review suggestions:</strong> Always review and test the code Copilot generates</li>
+        <li><strong>Iterate:</strong> Refine your prompts if the first suggestion isn't quite right</li>
+        <li><strong>Learn patterns:</strong> Observe how Copilot interprets your comments to improve your prompts</li>
+    </ul>
+</section>
+
+<div class="back-link">
+    <a href="/">← Back to Home</a>
+</div>
+{% endblock %}
