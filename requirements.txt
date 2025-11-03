@@ -1,2 +1,14 @@
+# Flask Web Framework and Dependencies
+# All versions are pinned for security and reproducibility
+# Last updated: 2025-11-03
+
+# Core framework
 Flask==3.0.0
 Werkzeug==3.0.1
+
+# Flask dependencies (pinned for consistency)
+itsdangerous==2.2.0
+Jinja2==3.1.2
+MarkupSafe==2.1.5
+click==8.1.6
+blinker==1.7.0

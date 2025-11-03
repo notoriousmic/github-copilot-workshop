@@ -1,0 +1,43 @@
+[flake8]
+# Maximum line length
+max-line-length = 100
+
+# Exclude patterns
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    env,
+    ENV,
+    build,
+    dist,
+    *.egg-info,
+    .eggs
+
+# Ignore specific error codes
+# E203: whitespace before ':' (conflicts with Black formatter)
+# W503: line break before binary operator (conflicts with PEP 8 update)
+ignore = E203, W503
+
+# Maximum complexity (cyclomatic complexity)
+max-complexity = 10
+
+# Enable additional checks
+select = E,W,F,C
+
+# Per-file ignores
+per-file-ignores =
+    __init__.py:F401
+
+# Show source code for errors
+show-source = True
+
+# Show the relevant text for errors
+show-pep8 = True
+
+# Count errors
+count = True
+
+# Output format
+format = %(path)s:%(row)d:%(col)d: %(code)s %(text)s
