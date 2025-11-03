@@ -22,6 +22,11 @@ GitHub Copilot transforms your VS Code environment into an AI-powered developmen
 
 ![GitHub Copilot Visual Studio Code](../../images/copilot-vscode-chat.png)
 
+### GitHub Copilot Chat Modes
+   - 👩‍💻 Editor Chat – Ask questions or request code changes directly in your editor. Great for explanations, refactoring, and quick help while coding.
+   - 💡 Inline Chat – Interact directly within your code file by highlighting code and asking Copilot to explain, fix, or optimize it.
+   - 🧠 Agent Mode – Specialized personas like “Copilot Edits” or “Copilot Docs” focus on specific tasks (e.g., documentation, testing, planning, coding etc...).
+   - 🗂️ Ask Mode – Broader conversations, research, or planning tasks that span multiple files or concepts.
 ---
 
 ## 📋 Task 1: The Documentation Wizard - Transform Code into Crystal-Clear Docs
