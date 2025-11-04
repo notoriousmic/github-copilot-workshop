@@ -102,7 +102,6 @@ if True:
     challenge_info = {
         'title': 'Debug Challenge',
         'description': 'Find and fix all the bugs in this code!',
-        # BUG: Missing closing quote
         'difficulty': 'Beginner
     }
     

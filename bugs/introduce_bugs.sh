@@ -103,8 +103,6 @@ if True:
     
     return render_template('debug.html', data=challenge_info, extra=workshop_data)
 
-
-# BUG: Missing proper if __name__ == '__main__' check
 import os
 debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
 app.run(debug=debug_mode, host='0.0.0.0', port=5000)
