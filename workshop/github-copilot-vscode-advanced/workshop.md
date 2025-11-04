@@ -64,8 +64,8 @@ Transform from a newcomer to a productive team member in under 10 minutes using 
  ```
 <role_definition>
 Your name is **Mico**.  
-You are GitHub Copilot, acting as a **senior software engineer** supporting organizational repositories.  
-Your mission is to help developers write **clear, secure, and maintainable** code while following company conventions and compliance rules.
+You are GitHub Copilot, acting as a **senior software engineer specialized in python** supporting our flask demo application.  
+Your mission is to help us write **clear, secure, and maintainable** code while following python best practices.
 </role_definition>
 
 ---
@@ -86,13 +86,183 @@ When generating code, documentation, or text:
 - Encourage testing and validation of new code.
 - Respect explicit developer instructions.
 - Never invent facts, sources, or data.
+- Focus on optimization dont generate code that may be unoptimized or hard to maintain
 </rules_behavior>
  ```
 
+---
+## 📋 Task 2: Using Prompt Files with GitHub Copilot
+
+> **🎭 Scenario:** *You are tasked with creating and using prompt files to standardize development workflows and improve team collaboration.*
+
+### 🎯 Objective
+Learn how to create and use prompt files to streamline common development tasks, such as generating code, performing code reviews, or scaffolding project components.
+
+### 🛠️ Steps
+
+1. **Understand the Purpose of Prompt Files**:
+   - Prompt files are reusable Markdown files that define instructions for specific tasks.
+   - They help maintain consistency and save time by standardizing workflows.
+   - Prompt files also help you create custom / commands in the GitHub Copilot chat that will be custom to your need
+
+2. **Create a Prompt File**:
+   - Navigate to `.github` directory in your project.
+   - Create a new folder named `prompts` (if it doesn’t already exist).
+   - Copy the architect.prompt.md file from `prompts` directroy in the root of the project to the `prompts` directory under `.github`.
+   - Feel free to experiment and change the content in the file 
+
+4. **Use the Prompt File in GitHub Copilot**:
+   - Open a GitHub Copilot chat session.
+   - Type `/architect` in the chat and then provide a prompt of your choice.
+
+5. **Iterate and Refine**:
+   - Test the prompt file with different tasks.
+   - Update the content based on feedback and results.
+
+### 💡 Pro Tips
+- Use Markdown headers and sections to organize the prompt file for clarity.
+- Include examples and expected outputs to guide users.
 
 ---
 
+## 📋 Task 3: Creating a Custom Chat Mode in GitHub Copilot
+
+> **🎭 Scenario:** *You want to create a custom chat mode to streamline specific workflows, such as planning, debugging, or reviewing code.*
+
+### 🎯 Objective
+Learn how to create and configure a custom chat mode in GitHub Copilot to suit your unique development needs.
+
+### 🛠️ Steps
+
+1. **Understand Custom Chat Modes**:
+   - Custom chat modes allow you to define specific instructions and tools for GitHub Copilot.
+   - These modes can be tailored for tasks like planning, debugging, or generating documentation.
+
+2. **Create a Custom Chat Mode File**:
+   - Navigate to the `.github` directory in your project.
+   - Create a new folder named `chatmodes` (if it doesn’t already exist).
+   - Copy the `plan.chatmode.md` file from the `prompts` directory in the root of the project to the `chatmodes` directory.
+
+3. **Activate the Custom Chat Mode**:
+   - Open GitHub Copilot chat.
+   - Switch to the custom chat mode by selecting it from the available modes.
+
+4. **Test and Refine**:
+   - Use the custom chat mode for relevant tasks.  
+example prompt:  
+```Help me plan for a new readiness api endpoint for my flask application```
+   - Update the `plan-chatmode.md` file based on feedback and results.
+
+### 💡 Pro Tips
+- Keep the instructions concise and focused.
+- Use descriptive names for each mode to make them easily identifiable.
+- Test the modes thoroughly to ensure they meet your requirements.
+
+---
+
+## 📋 Task 4: Adding GitHub MCP to GitHub Copilot
+
+> **🎭 Scenario:** *You want to integrate GitHub MCP (Model Context Protocol) to enhance Copilot’s capabilities by connecting it to external tools and data.*
+
+### 🎯 Objective
+Learn how to configure GitHub MCP to securely connect Copilot to external tools, APIs, and data sources.
+
+### 🛠️ Steps
+
+1. **Understand GitHub MCP**:
+   - MCP is a protocol that allows AI models to access external tools and data securely.
+   - It acts as a bridge between Copilot and your project’s ecosystem.
+
+2. **Set Up MCP Configuration**:
+   - Press `control+shift+x` and search for the `github` in the search mcp search bar.
+   - Download the MCP and authenticate to github.
+![GitHub MCP](../../images/github-mcp.png)
+
+3. **Test the MCP Integration**:
+   - Use GitHub Copilot to interact with the configured tools.
+   - Verify that the tools are accessible and functioning as expected.
+   - Use the follwing prompt in agent mode:  
+   `List my github repositories`
+
+---
+
+
+## 📋 Task 5: Leveraging Spec Kit for Specification-Driven Development
+
+> **🎭 Scenario:** *You want to explore and implement Specification-Driven Development (SDD) using Spec Kit to create high-quality, maintainable software.*
+
+### 🎯 Objective
+Learn how to use Spec Kit to define, refine, and implement specifications that drive your development process.
+
+### 🛠️ Steps
+1. **Understand Spec Kit and SDD**:
+   - Spec Kit is a toolkit for Specification-Driven Development, emphasizing executable specifications.
+   - Read the [Core Philosophy](https://github.com/github/spec-kit#-core-philosophy) to understand the principles of SDD.
+
+2. **Set Up Spec Kit**:
+   - Install Spec Kit with the following command:   
+   ```bash pip install uv && uv tool install specify-cli --from git+https://github.com/github/spec-kit.git```  
+   If you experience problem please reffer to: [Quick Start Guide](https://github.com/github/spec-kit/tree/main/docs/quickstart.md) to set up your environment.
+   - Run ```bash specify init . --ai copilot && specify check```
+
+3. **Define Your Specification**:
+   - Use the `/speckit.specify` command in the Copilot Chat box to create a specification for your project.
+   - Focus on the "what" and "why" of your project, not the technical implementation.
+
+4. **Refine and Validate**:
+   - Use the `/speckit.plan` command to generate a technical implementation plan.
+   - Validate your specification using the `/speckit.analyze` command to identify ambiguities or gaps.
+
+5. **Implement and Iterate**:
+   - Generate actionable tasks with `/speckit.tasks`.
+   - Follow the tasks to implement your project incrementally.
+   - Iterate on your specification and plan as needed.
+
+### 💡 Pro Tips
+- Use the Spec Kit constitution to enforce architectural discipline and maintain consistency.
+- Leverage the Spec Kit templates for tasks, plans, and specifications to streamline your workflow.
+- Regularly validate your specifications to ensure alignment with project goals.
+
+---
+
+## 📚 Additional Resources
+
+- 📖 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- 📖 [GitHub Copilot in VS Code Documentation](https://github.blog/developer-skills/github/how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
+- 📖 [GitHub MCP Documentation](https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/)
+---
+
+## 🏆 Workshop Success Metrics
+
+By the end of this workshop, you should have mastered:
+
+- [ ] **Custom Chat Modes**: Create and use tailored chat modes for specific workflows.
+- [ ] **Prompt Files**: Develop reusable prompts to standardize and streamline development tasks.
+- [ ] **Copilot Instructions**: Configure Copilot to align with your project’s goals and coding standards.
+- [ ] **GitHub MCP Integration**: Connect Copilot to external tools and data securely.
+- [ ] **Advanced AI Collaboration**: Leverage Copilot for complex development challenges.
+- [ ] **Best Practices Implementation**: Apply industry standards automatically with AI assistance.
+- [ ] **Using Spec Kit**: Leverage Spec Kit for Spec Driven Developemnt and Context Engineering 
+
+---
 ### 🔑 Key Takeaways
 - Context and prompt engineering are essential for effective AI collaboration.
 - GitHub Copilot’s advanced features, like custom chat modes and prompt files, can significantly enhance your development workflow.
 - Tailoring Copilot to your project ensures higher-quality suggestions and a more seamless coding experience.
+
+## 💬 Share Your Success
+
+Transform your development experience and share it with the community!
+
+- 🐦 **Connect on LinkedIn**: [Michael Liav LinkedIn](https://www.linkedin.com/in/michael-liav-a5484b220/)
+- 💡 **Share with Your Team**: Spread the AI-powered development revolution
+- 🌟 **Star This Repository**: Help others discover these powerful techniques
+- 📝 **Document Your Journey**: Create your own Copilot success stories
+
+---
+
+## 📜 License
+
+This workshop is part of the GitHub Copilot educational series, designed to empower developers with AI-assisted coding capabilities.
+
+*Happy Coding with AI! 🚀*
