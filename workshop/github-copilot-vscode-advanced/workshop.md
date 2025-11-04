@@ -183,7 +183,15 @@ Learn how to configure GitHub MCP to securely connect Copilot to external tools,
    - Verify that the tools are accessible and functioning as expected.
    - Use the follwing prompt in agent mode:  
    `List my github repositories`
-
+### 💡 Pro Tips
+- You can enable all the tools in the github mcp by editing the `mcp.json` and adding the following block to the github mcp configuration:   
+```
+{
+	"headers": {
+        "X-MCP-Toolsets": "all"
+    }
+}
+```
 ---
 
 
