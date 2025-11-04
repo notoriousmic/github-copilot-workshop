@@ -225,6 +225,43 @@ Learn how to use Spec Kit to define, refine, and implement specifications that d
 
 ---
 
+## 📋 Task 6: Compressing Context in Context Engineering
+
+> **🎭 Scenario:** *You start seeing unrelated responses and context problem while working with the coding agent. You are tasked to manage and compress the context history in GitHub Copilot to ensure relevant information is retained while clearing unnecessary data.*
+
+### 🎯 Objective
+Learn how to compress context history and start fresh with a clear context window in GitHub Copilot.
+
+### 🛠️ Steps
+
+1. **Understand Context Compression**:
+   - Context compression involves summarizing or retaining only the most relevant parts of the interaction history.
+   - This ensures that GitHub Copilot focuses on the critical details without being overwhelmed by irrelevant data.
+
+2. **Request a Compressed History**:
+   - In the GitHub Copilot chat, type:
+     ```
+     Summarize the current context history and provide a compressed version.
+     ```
+   - Review the compressed history provided by Copilot to ensure it retains the necessary details.
+
+3. **Clear the Context Window**:
+   - Open a new chat session in GitHub Copilot to clear the current context window.
+   - Start fresh by providing the compressed history or new instructions.
+
+4. **Test the New Context**:
+   - Interact with GitHub Copilot using the compressed history.
+   - Verify that the responses are accurate and relevant to the new context.
+
+5. **Iterate and Refine**:
+   - If needed, adjust the compressed history or provide additional details to improve the context.
+
+### 💡 Pro Tips
+- Regularly clear the context window to avoid clutter and maintain focus.
+- You can save the compressed history in a file for future reference or reuse.
+
+---
+
 ## 📚 Additional Resources
 
 - 📖 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
