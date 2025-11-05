@@ -1,8 +1,40 @@
-# GitHub Copilot Workshop Website
+## About the Workshop
 
-This project contains a basic Python website that showcases GitHub Copilot capabilities. The website demonstrates various features of GitHub Copilot through an interactive web application built with Flask.
+This project is designed as a workshop to explore and demonstrate the capabilities of GitHub Copilot. It provides hands-on examples and interactive content to help users understand how to effectively use Copilot in their development workflows.
 
-## Features
+### Workshop Parts
+
+The workshop is divided into the following parts, each represented by a directory under the `workshop/` folder:
+
+1. **GitHub Copilot CLI** (`github-copilot-cli/`):
+   - Learn how to use GitHub Copilot in the command line interface.
+
+2. **GitHub Copilot in VS Code** (`github-copilot-vscode/`):
+   - Explore how to integrate and use GitHub Copilot within Visual Studio Code.
+
+3. **Advanced GitHub Copilot in VS Code** (`github-copilot-vscode-advanced/`):
+   - Dive into advanced features and workflows for using GitHub Copilot in VS Code.
+
+4. **GitHub Copilot Inside GitHub** (`github-copilot-web/`):
+   - Understand how to work with copilot on the web
+
+Additionally, there is a `prerequisite.md` file that outlines the requirements and setup instructions for the workshop.
+### Workshops Included
+
+1. **Introduction to GitHub Copilot**:
+   - Overview of Copilot's features and how it assists in code generation.
+
+2. **Using Copilot for Python Development**:
+   - Practical examples of using Copilot to write Python code, including Flask applications.
+
+3. **Debugging with Copilot**:
+   - Learn how Copilot can assist in identifying and fixing bugs in your code.
+
+4. **Advanced Copilot Features**:
+   - Explore advanced topics like Context Engineering, custom modes etc..
+
+
+## Project Features
 
 - **Homepage**: Overview of GitHub Copilot features and capabilities
 - **Examples Page**: Practical code examples showing how Copilot generates code from natural language prompts
