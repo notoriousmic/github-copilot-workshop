@@ -1,3 +1,13 @@
+## GitHub Copilot Workshop
+
+## A course teaching everything you need to know to start working with GitHub Copilot and Context Engineering
+
+[![GitHub license](https://img.shields.io/github/license/notoriousmic/github-copilot-workshop.svg)](https://github.com/notoriousmic/github-copilot-workshop/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## About the Workshop
 
 This project is designed as a workshop to explore and demonstrate the capabilities of GitHub Copilot. It provides hands-on examples and interactive content to help users understand how to effectively use Copilot in their development workflows.
