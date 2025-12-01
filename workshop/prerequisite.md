@@ -4,10 +4,77 @@ Welcome to the GitHub Copilot Workshop! This guide will help you set up the nece
 
 ## 🚀 Quick Start Checklist
 
+- [ ] Install Node.js and npm
 - [ ] Install GitHub Copilot CLI
 - [ ] Authenticate with GitHub
 - [ ] Install GitHub Copilot in VS Code
 - [ ] Verify your setup
+
+---
+
+## 📦 Installing Node.js and npm
+
+Before installing the GitHub Copilot CLI, you need to have Node.js and npm installed on your system.
+
+### Windows
+
+**Option 1: Using the Installer**
+1. Visit [nodejs.org](https://nodejs.org/)
+2. Download the LTS (Long Term Support) version
+3. Run the installer and follow the installation wizard
+4. Verify installation by opening PowerShell and running:
+   ```powershell
+   node --version
+   npm --version
+   ```
+
+**Option 2: Using Winget**
+```powershell
+winget install OpenJS.NodeJS.LTS
+```
+
+### macOS
+
+**Option 1: Using Homebrew**
+```bash
+brew install node
+```
+
+**Option 2: Using the Installer**
+1. Visit [nodejs.org](https://nodejs.org/)
+2. Download the LTS version for macOS
+3. Run the installer
+
+Verify installation:
+```bash
+node --version
+npm --version
+```
+
+### Linux
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install nodejs npm
+```
+
+**Fedora:**
+```bash
+sudo dnf install nodejs npm
+```
+
+**Using Node Version Manager (nvm) - Recommended for all Linux distributions:**
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+nvm install --lts
+```
+
+Verify installation:
+```bash
+node --version
+npm --version
+```
 
 ---
 
