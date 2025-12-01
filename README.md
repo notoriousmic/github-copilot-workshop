@@ -1,42 +1,53 @@
+## GitHub Copilot Workshop
+
+## A course teaching everything you need to know to start working with GitHub Copilot and Context Engineering
+
+[![GitHub license](https://img.shields.io/github/license/notoriousmic/github-copilot-workshop.svg)](https://github.com/notoriousmic/github-copilot-workshop/blob/main/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ## About the Workshop
 
 This project is designed as a workshop to explore and demonstrate the capabilities of GitHub Copilot. It provides hands-on examples and interactive content to help users understand how to effectively use Copilot in their development workflows.
 
-### How to Start This Workshop
+- **Who this is for**: Developers, DevOps Engineers, Engineering Managers, and anyone interested in AI-assisted coding.
+- **What you'll learn**: How to use GitHub Copilot in CLI, VS Code, and the web interface.
+- **What you'll build**: Real-world applications using GitHub Copilot's AI assistance.
+- **Prerequisites**: [📋 Complete the setup guide](workshop/prerequisite.md) before starting the workshop.
+- **How long**: Each workshop part can be completed in 30-60 minutes.
 
-Fork this repository to get started with the GitHub Copilot workshop:
+---
+
+## 🚀 Getting Started
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
-  template_owner: 'notoriousmic',
-  template_name: 'github-copilot-workshop',
+  template_owner: 'skills',
+  template_name: 'code-with-codespaces',
   owner: '@me',
-  name: 'github-copilot-workshop',
-  description: 'My GitHub Copilot Workshop',
+  name: 'skills-code-with-codespaces',
+  description: 'My clone repository',
   visibility: 'public',
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=notoriousmic&template_name=github-copilot-workshop&owner=%40me&name=github-copilot-workshop&description=My+GitHub+Copilot+Workshop&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
 
-### Workshop Parts
+> **Important**: Before starting any workshop, please complete the [Prerequisites](workshop/prerequisite.md) to set up your environment.
 
-The workshop is divided into the following parts, each represented by a directory under the `workshop/` folder:
+### Workshop Lessons
 
-1. **GitHub Copilot CLI** (`github-copilot-cli/`):
-   - Learn how to use GitHub Copilot in the command line interface.
+| # | Workshop Part | Description | Link |
+|---|---------------|-------------|------|
+| 0 | **Prerequisites** | Set up GitHub Copilot CLI, VS Code extension, and authentication | [📋 prerequisite.md](workshop/prerequisite.md) |
+| 1 | **GitHub Copilot CLI** | Learn how to use GitHub Copilot in the command line interface | [📁 github-copilot-cli/](workshop/github-copilot-cli/) |
+| 2 | **GitHub Copilot in VS Code** | Explore how to integrate and use GitHub Copilot within Visual Studio Code | [📁 github-copilot-vscode/](workshop/github-copilot-vscode/) |
+| 3 | **Advanced GitHub Copilot in VS Code** | Dive into advanced features and workflows for using GitHub Copilot in VS Code | [📁 github-copilot-vscode-advanced/](workshop/github-copilot-vscode-advanced/) |
+| 4 | **GitHub Copilot Inside GitHub** | Understand how to work with Copilot on the web | [📁 github-copilot-web/](workshop/github-copilot-web/) |
 
-2. **GitHub Copilot in VS Code** (`github-copilot-vscode/`):
-   - Explore how to integrate and use GitHub Copilot within Visual Studio Code.
-
-3. **Advanced GitHub Copilot in VS Code** (`github-copilot-vscode-advanced/`):
-   - Dive into advanced features and workflows for using GitHub Copilot in VS Code.
-
-4. **GitHub Copilot Inside GitHub** (`github-copilot-web/`):
-   - Understand how to work with copilot on the web
-
-Additionally, there is a `prerequisite.md` file that outlines the requirements and setup instructions for the workshop.
-### Workshops Included
+### What You'll Learn
 
 1. **Introduction to GitHub Copilot**:
    - Overview of Copilot's features and how it assists in code generation.
