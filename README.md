@@ -33,7 +33,7 @@ This project is designed as a workshop to explore and demonstrate the capabiliti
 }).toString()
 -->
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=code-with-codespaces&owner=%40me&name=skills-code-with-codespaces&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?github-copilot-workshop&template_owner=notoriousmic&owner=@me&name=github-copilot-workshop&description=My+clone+repository&visibility=public)
 
 > **Important**: Before starting any workshop, please complete the [Prerequisites](workshop/prerequisite.md) to set up your environment.
 
