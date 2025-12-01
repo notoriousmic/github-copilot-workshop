@@ -2,6 +2,23 @@
 
 This project is designed as a workshop to explore and demonstrate the capabilities of GitHub Copilot. It provides hands-on examples and interactive content to help users understand how to effectively use Copilot in their development workflows.
 
+### How to Start This Workshop
+
+Fork this repository to get started with the GitHub Copilot workshop:
+
+<!-- For start course, run in JavaScript:
+'https://github.com/new?' + new URLSearchParams({
+  template_owner: 'notoriousmic',
+  template_name: 'github-copilot-workshop',
+  owner: '@me',
+  name: 'github-copilot-workshop',
+  description: 'My GitHub Copilot Workshop',
+  visibility: 'public',
+}).toString()
+-->
+
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=notoriousmic&template_name=github-copilot-workshop&owner=%40me&name=github-copilot-workshop&description=My+GitHub+Copilot+Workshop&visibility=public)
+
 ### Workshop Parts
 
 The workshop is divided into the following parts, each represented by a directory under the `workshop/` folder:
