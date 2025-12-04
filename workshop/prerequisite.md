@@ -118,7 +118,7 @@ For automated workflows or when interactive login isn't suitable, you can authen
    - `GITHUB_TOKEN`
 
 ### Using the CLI
-
+💡 **Cheking connection:** Run `copilot --banner` in the terminal you should see you are authenticated with your user.
 🎯 **Model Selection:** By default, `copilot` utilizes **Claude Sonnet 4.5**. Use the `/model` slash command to choose from other available models, including:
 - Claude Sonnet 4
 - GPT-5
