@@ -33,6 +33,8 @@ Welcome to the **Advanced Edition** of the GitHub Copilot workshop! This hands-o
 - **Prompt Files**: Markdown files that define reusable prompts for common development tasks like generating code, performing code reviews, or scaffolding project components. They enable the creation of a library of standardized development workflows.
   > *In short: Prompt files store reusable prompts for tasks like coding, reviews, or scaffolding, letting you run them directly in chat.*
 
+- **Agent Skills**: Agent Skills are folders containing instructions, scripts, and resources that teach Copilot how to perform specialized tasks. You can create your own skills or use community skills.
+  > *In short: Skills allow you to teach copilot to do certain specialized tasks according to the team best practices and requirements.*
 ---
 
 ## 📋 Task 1: Using Copilot Instructions - Making Copilot Self-Tailored
@@ -141,7 +143,7 @@ Learn how to create and configure a custom chat mode in GitHub Copilot to suit y
 2. **Create a Custom Chat Mode File**:
    - Navigate to the `.github` directory in your project.
    - Create a new folder named `chatmodes` (if it doesn’t already exist).
-   - Copy the `plan.chatmode.md` file from the `prompts` directory in the root of the project to the `chatmodes` directory.
+   - Copy the `architect.chatmode.md` file from the `prompts` directory in the root of the project to the `chatmodes` directory.
 
 3. **Activate the Custom Chat Mode**:
    - Open GitHub Copilot chat.
@@ -151,7 +153,7 @@ Learn how to create and configure a custom chat mode in GitHub Copilot to suit y
    - Use the custom chat mode for relevant tasks.  
 example prompt:  
 ```Help me plan for a new readiness api endpoint for my flask application```
-   - Update the `plan-chatmode.md` file based on feedback and results.
+   - Update the `architect-chatmode.md` file based on feedback and results.
 
 ### 💡 Pro Tips
 - Keep the instructions concise and focused.
@@ -269,12 +271,65 @@ Learn how to compress context history and start fresh with a clear context windo
 - You can save the compressed history in a file for future reference or reuse.
 
 ---
+## 📋 Task 7: Using Agent Skills with GitHub Copilot
+> **🎭 Scenario:** *You want GitHub Copilot to perform specialized tasks such as comparing implementations between your code and best practices, help to write documentation in the certain way your organization dictates.*
+
+### 🎯 Objective
+Learn how agent skills can help you create specialized agents for specific tasks and help you accelerate development.
+
+### 🛠️ Steps
+1. **Understand agent Skills and how they work**:
+- **What are Agent Skills?**
+   - Skills can be stored in your repository (for project-specific use) at ```.github/skills``` or in your home directory (for personal use across projects) at ```~/.copilot/skills```.
+- **How do Agent Skills work?**
+   - Each skill is a directory with a SKILL.md file.
+   - The SKILL.md file starts with YAML frontmatter:
+      - name: unique, lowercase identifier for the skill.
+      - description: explains what the skill does and when Copilot should use it.
+   - The rest of the file contains step-by-step instructions, examples, or guidelines.
+   - You can add scripts or resources to the skill’s directory.
+   - When Copilot sees a relevant task, it loads the skill and follows your instructions.
+- **Why use Agent Skills?**
+   - They help Copilot perform complex, repeatable tasks more effectively.
+   - Use skills for detailed instructions; use custom instructions for simple, general guidance.
+
+2. **Create a Skill Directory:**
+   - Make a new folder for your skill, `.github/skills/make-skill-template`.
+
+3. **Add a `SKILL.md` File:**
+   - Copy the `SKILL.md` file from the ```prompts``` folder into your skill folder.
+   - You can also create your own custom SKILL.md and test it, Start with YAML frontmatter:
+      ```markdown
+     ---
+     name: github-actions-failure-debugging
+     description: Guide for debugging failing GitHub Actions workflows.
+     ---
+     1. List recent workflow runs and their status.
+     2. Summarize logs for failed jobs.
+     3. Get full logs if needed.
+     4. Try to reproduce the failure.
+     5. Fix the build and verify.
+     ```
+
+4. **(Optional) Add Scripts or Resources:**
+   - Place any helper scripts or files in the same skill directory.
+
+5. **Use Your Skill:**
+   - The skills we added help Copilot create custom skills for you. Try creating new skills and testing them.
+
+### 💡 Pro Tips
+- Use Agent Skills for detailed, repeatable processes. Use custom instructions for general guidance.
+- Keep instructions clear and focused on your team’s real workflows.
+- You can share skills across projects by placing them in your home directory.
+
+---
 
 ## 📚 Additional Resources
 
 - 📖 [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
 - 📖 [GitHub Copilot in VS Code Documentation](https://github.blog/developer-skills/github/how-to-use-github-copilot-in-your-ide-tips-tricks-and-best-practices/)
 - 📖 [GitHub MCP Documentation](https://github.blog/ai-and-ml/generative-ai/a-practical-guide-on-how-to-use-the-github-mcp-server/)
+- 📖 [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
 ---
 
 ## 🏆 Workshop Success Metrics
@@ -288,6 +343,7 @@ By the end of this workshop, you should have mastered:
 - [ ] **Advanced AI Collaboration**: Leverage Copilot for complex development challenges.
 - [ ] **Best Practices Implementation**: Apply industry standards automatically with AI assistance.
 - [ ] **Using Spec Kit**: Leverage Spec Kit for Spec Driven Developemnt and Context Engineering 
+- [ ] **Agent Skills**: Leverage Agent Skills to help GitHub Copilot become a specialist in certain tasks.
 
 ---
 ### 🔑 Key Takeaways
