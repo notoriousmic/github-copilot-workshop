@@ -1,6 +1,9 @@
 ## GitHub Copilot Workshop
 
+![Workshop Banner](images/copilot-ga.png)
+
 ## A course teaching everything you need to know to start working with GitHub Copilot and Context Engineering
+
 
 [![GitHub license](https://img.shields.io/github/license/notoriousmic/github-copilot-workshop.svg)](https://github.com/notoriousmic/github-copilot-workshop/blob/main/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/notoriousmic/github-copilot-workshop.svg)](https://GitHub.com/notoriousmic/github-copilot-workshop/graphs/contributors/)
