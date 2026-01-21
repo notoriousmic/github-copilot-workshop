@@ -34,7 +34,7 @@ Welcome to the **Advanced Edition** of the GitHub Copilot workshop! This hands-o
   > *In short: Prompt files store reusable prompts for tasks like coding, reviews, or scaffolding, letting you run them directly in chat.*
 
 - **Agent Skills**: Agent Skills are folders containing instructions, scripts, and resources that teach Copilot how to perform specialized tasks. You can create your own skills or use community skills.
-  > *In short: Skills allows you to teach copilot to do certain specialized tasks according to the team best practices and requirements.*
+  > *In short: Skills allow you to teach copilot to do certain specialized tasks according to the team best practices and requirements.*
 ---
 
 ## 📋 Task 1: Using Copilot Instructions - Making Copilot Self-Tailored
@@ -272,13 +272,13 @@ Learn how to compress context history and start fresh with a clear context windo
 
 ---
 ## 📋 Task 7: Using Agent Skills with GitHub Copilot
-> **🎭 Scenario:** *You want GitHub Copilot to preform specialized task such as comparing implementations between your code and best practices, Help to write documentation in the certain way your organization dictates.*
+> **🎭 Scenario:** *You want GitHub Copilot to perform specialized tasks such as comparing implementations between your code and best practices, help to write documentation in the certain way your organization dictates.*
 
 ### 🎯 Objective
-Learn how agent skills can help you create specialized agents for specific tasks and help you accelerate developement.
+Learn how agent skills can help you create specialized agents for specific tasks and help you accelerate development.
 
 ### 🛠️ Steps
-1. **Understand agent Skills and how it works**:
+1. **Understand agent Skills and how they work**:
 - **What are Agent Skills?**
    - Skills can be stored in your repository (for project-specific use) at ```.github/skills``` or in your home directory (for personal use across projects) at ```~/.copilot/skills```.
 - **How do Agent Skills work?**
@@ -315,7 +315,7 @@ Learn how agent skills can help you create specialized agents for specific tasks
    - Place any helper scripts or files in the same skill directory.
 
 5. **Use Your Skill:**
-   - The skills we added help copilot create for you custom skills. Try to make new skills and test them
+   - The skills we added help Copilot create custom skills for you. Try creating new skills and testing them.
 
 ### 💡 Pro Tips
 - Use Agent Skills for detailed, repeatable processes. Use custom instructions for general guidance.
@@ -343,7 +343,7 @@ By the end of this workshop, you should have mastered:
 - [ ] **Advanced AI Collaboration**: Leverage Copilot for complex development challenges.
 - [ ] **Best Practices Implementation**: Apply industry standards automatically with AI assistance.
 - [ ] **Using Spec Kit**: Leverage Spec Kit for Spec Driven Developemnt and Context Engineering 
-- [ ] **Agent Skills**: Leverage Agent Skills to help github copilot become a specialist in certain tasks.
+- [ ] **Agent Skills**: Leverage Agent Skills to help GitHub Copilot become a specialist in certain tasks.
 
 ---
 ### 🔑 Key Takeaways
