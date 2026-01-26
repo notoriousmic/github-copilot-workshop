@@ -64,9 +64,9 @@ Use the Copilot CLI to interview you about your project and generate a comprehen
     *   *Tell me about the application or project you want to build. What problem are you trying to solve?*
         - Answer: I want to improve the user interface of my application to be more engaging to customers also I want to add a new page to the website that explaining about ralph wiggum capabilities with coding agents
     *   *Who is the primary user or audience for this project? What are their key needs or pain points?*
-        -  The audience is developers thier key need is to have a website that could help them understand better about coding agents    
+        -  The audience is developers their key need is to have a website that could help them understand better about coding agents    
     *   *What are the 3-5 core features or capabilities you want this project to have? List them in order of priority.*
-        - Light and Dark mode for the website, Make the website accessable to users with disability
+        - Light and Dark mode for the website, Make the website accessible to users with disability
 
 
 3.  **📄 Review the Artifacts**
