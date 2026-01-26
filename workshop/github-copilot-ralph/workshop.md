@@ -62,7 +62,7 @@ Use the Copilot CLI to interview you about your project and generate a comprehen
 2.  **🗣️ Answer the Discovery Questions**
     The agent will ask you specific questions to define your project. Be detailed!
     *   *Tell me about the application or project you want to build. What problem are you trying to solve?*
-        - Answer: I want to improve the user interface of my application to be more engaging to customers also I want to add a new page to the website that explaing about ralph wiggum capabilties with coding agents
+        - Answer: I want to improve the user interface of my application to be more engaging to customers also I want to add a new page to the website that explaining about ralph wiggum capabilities with coding agents
     *   *Who is the primary user or audience for this project? What are their key needs or pain points?*
         -  The audience is developers thier key need is to have a website that could help them understand better about coding agents    
     *   *What are the 3-5 core features or capabilities you want this project to have? List them in order of priority.*
