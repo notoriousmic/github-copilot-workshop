@@ -42,7 +42,7 @@ Ralph Wiggum is a workflow that enables Copilot to build software iteratively. I
 Use the Copilot CLI to interview you about your project and generate a comprehensive `prd.md` (Product Requirements Document) and a tailored `PROMPT.md`.
 
 ### 📝 Step-by-Step Instructions
-#### Prerequisites**
+#### Prerequisites
     -  ```npm install -g agent-browser && agent-browser install  # Downloads Chromium```
 #### 🚀 Phase 1: The Interview
 
