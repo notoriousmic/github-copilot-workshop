@@ -12,6 +12,7 @@ Welcome to the comprehensive GitHub Copilot administration workshop! This hands-
 - 📊 **Usage Analytics**: Monitor adoption, ROI, and compliance with detailed metrics
 - 🔒 **Security Controls**: Implement content exclusions and manage sensitive code
 - ⚙️ **Feature Governance**: Enable the right Copilot capabilities for your teams
+- 🧠 **Copilot Memory**: Configure agentic memory for enhanced codebase understanding
 - 🚀 **Successful Onboarding**: Guide your organization through AI-powered development adoption
 
 ---
@@ -439,9 +440,45 @@ Enable and configure advanced GitHub Copilot features including the coding agent
    - Implement additional security layers for sensitive environments
    - Document network policies for compliance
 
+10. **🧠 Enable Copilot Memory (Beta)**
+
+   > **Note:** Copilot Memory is currently in public preview and is subject to change.
+
+   ![Copilot Memory](../../images/admin/copilot-memory.png)
+   *Enable Copilot memory*
+
+   Copilot Memory allows Copilot to learn about your codebase, helping the Copilot coding agent, code review, and CLI work more effectively in repositories.
+
+   **For Enterprise Administrators:**
+   - Navigate to your enterprise settings (click profile picture → **Enterprise**)
+   - Click **AI controls** at the top of the page
+   - In the sidebar, click **Copilot**
+   - Under "Features", scroll to **Copilot Memory** setting
+   - Select a policy from the dropdown:
+     - **Let organizations decide**: Delegate to organization owners
+     - **Enabled everywhere**: Enable for all organizations
+     - **Disabled everywhere**: Disable across the enterprise
+
+   **For Organization Administrators:**
+   - Navigate to **Settings** → **Copilot** → **Policies**
+   - Under "Features", scroll to **Copilot Memory**
+   - Click the dropdown and select **Enabled**
+
+   **Managing Memories:**
+   Repository owners can view and curate memories:
+   - Go to repository **Settings** → **Copilot** → **Memory**
+   - Review stored memories (displayed chronologically)
+   - Delete inappropriate or outdated memories as needed
+   - Note: Memories auto-delete after 28 days to prevent stale information
+
+   **Important Considerations:**
+   - If a user belongs to multiple organizations, the most restrictive setting applies
+   - Copilot validates memories before use to ensure code still exists
+   - Only enable if your organization is comfortable with this level of AI learning
+
 #### 🎯 Phase 4: Create an Onboarding Program
 
-10. **📚 Develop Training Materials**
+11. **📚 Develop Training Materials**
 
     **Essential Components:**
     ```markdown
@@ -470,7 +507,7 @@ Enable and configure advanced GitHub Copilot features including the coding agent
        - Acceptable use policy
     ```
 
-11. **🚀 Launch Internal Copilot Champions Program**
+12. **🚀 Launch Internal Copilot Champions Program**
 
     **Program Structure:**
     - Identify early adopters and power users
@@ -479,7 +516,7 @@ Enable and configure advanced GitHub Copilot features including the coding agent
     - Create feedback loops for continuous improvement
     - Share success stories across organization
 
-12. **📅 Schedule Regular Training Sessions**
+13. **📅 Schedule Regular Training Sessions**
     - Monthly "Copilot Office Hours" for Q&A
     - Quarterly feature update sessions
     - Team-specific deep dives
@@ -509,6 +546,7 @@ By the end of this workshop, you should have accomplished:
 - [ ] **Usage Monitoring**: Set up analytics review process
 - [ ] **Audit Logging**: Configured compliance tracking
 - [ ] **Advanced Features**: Enabled appropriate advanced capabilities
+- [ ] **Copilot Memory**: Configured memory settings and understand curation process
 - [ ] **ROI Measurement**: Established metrics for success tracking
 - [ ] **Champion Network**: Identified and trained internal advocates
 - [ ] **Documentation**: Created organization-specific guidelines
@@ -609,6 +647,10 @@ If usage metrics are lower than expected:
 **Security & Compliance:**
 - [GitHub Copilot Trust Center](https://copilot.github.trust.page/)
 - [Content Exclusions Documentation](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-organization-admin/configuring-content-exclusions-for-github-copilot)
+
+**Advanced Features:**
+- [Copilot Memory Documentation](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/copilot-memory)
+- [About Agentic Memory](https://docs.github.com/en/copilot/concepts/agents/copilot-memory)
 
 ### 🎥 Training & Education
 - [GitHub Copilot Learning Path](https://learn.microsoft.com/en-us/training/modules/get-started-github-copilot/)
