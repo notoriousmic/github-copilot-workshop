@@ -49,7 +49,7 @@ This project is designed as a workshop to explore and demonstrate the capabiliti
 | 2 | **GitHub Copilot in VS Code** | Explore how to integrate and use GitHub Copilot within Visual Studio Code | [📁 github-copilot-vscode/](workshop/github-copilot-vscode/) |
 | 3 | **Advanced GitHub Copilot in VS Code** | Dive into advanced features and workflows for using GitHub Copilot in VS Code | [📁 github-copilot-vscode-advanced/](workshop/github-copilot-vscode-advanced/) |
 | 4 | **GitHub Copilot Inside GitHub** | Understand how to work with Copilot on the web | [📁 github-copilot-web/](workshop/github-copilot-web/) |
-| 5 | **Leveraging Ralph with GitHub Copilot** | Understand how to work with Ralph on GitHub Copilot | [📁 github-copilot-web/](workshop/github-copilot-ralph/) |
+| 5 | **Leveraging Ralph with GitHub Copilot** | Understand how to work with Ralph on GitHub Copilot | [📁 github-copilot-ralph/](workshop/github-copilot-ralph/) |
 
 ### What You'll Learn
 
