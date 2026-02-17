@@ -104,7 +104,7 @@ for ((i=1; i<=MAX_ITERATIONS; i++)); do
   # --allow-all: enables all permissions (tools, paths, urls)
   # NOTE: If you prefer explicit flags, replace --allow-all with:
   #   --allow-all-tools --allow-all-paths --allow-all-urls
-  result="$(copilot -p "$PROMPT_TEXT" -s --allow-all 2>&1)" || true
+  result="$(copilot -p "$PROMPT_TEXT" -s --yolo 2>&1)" || true
 
   # Print output for visibility
   echo "$result"
